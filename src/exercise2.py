@@ -25,6 +25,6 @@ def most_frequent_char(s):
 
 sentence = "This is a common interview question."
 sentence_1 = "UDITHHHHHhhhhhhhhhhh"
-sentence_2 = "My name is Udith Nalak Dharmasiri. I am from Sri Lanka. I love programming. Programming is fun."
+sentence_2 = "My name is Udith Snageeth Nonis bro. I am from Sri Lanka. I love programming. Programming is fun."
 
 most_frequent_char(sentence_2)
