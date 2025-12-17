@@ -29,3 +29,19 @@ print(cource_name.find("Py"))  # find the index of substring
 print("python" in cource_name)
 print("Python" in cource_name)
 print("Java" not in cource_name)
+
+
+# swap two variables
+x = 10
+y = 20
+print("before swapping x:", x, "y:", y)
+temp = x
+x = y
+y = temp
+print("after swapping x:", x, "y:", y)
+
+# swap using tuple unpacking
+a = 5
+b = 15
+a, b = b, a
+print("swapping using tuple unpacking. a:", a, "b:", b)

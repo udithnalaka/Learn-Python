@@ -20,7 +20,7 @@ message = greet_message("Udith")
 print(message)
 
 # write to a file
-with open("greeting.txt", "w") as file:
+with open("greeting.txt", "w", encoding="utf-8") as file:
     file.write(message)
 
 
